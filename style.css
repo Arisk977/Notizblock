@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+    margin: 40px;
+    font-size: 52px;
+    text-decoration: underline dashed;
+    
+}
+
+body {
+    background-color: rgb(226, 225, 208);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    height: 30px;
+    width: 50%;
+}
+
+form button{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.348);
+}
+
+form button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.note {
+    border: 1px solid black;
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.trash_note {
+    border: 1px solid black;
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(65, 28, 28);
+    border-radius: 20px;
+
+}
+
+.archiv_note {
+    border: 1px solid black;
+    width: 130px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(16, 50, 37);
+    border-radius: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.buttons button {
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.buttons button:hover {
+    transform: scale(1.2);
+    filter: brightness(1.05);
+    cursor: pointer;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+}
+
+#content {
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#trash-content {
+    background-color: rgb(177, 89, 89);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#archiv-content {
+    background-color: rgb(69, 105, 69);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
